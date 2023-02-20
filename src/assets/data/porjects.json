@@ -1,0 +1,67 @@
+{
+    "portfolio" : [
+        {
+            "cover": "/portfolio/calendarApp.png",
+            "title": "Calendar App compartido",
+            "tecnologis": "Redux, Jest, Mongo, Node, Express, Axios, JWT",
+            "web": "https://calendar-backend-production-52bf.up.railway.app/auth/login",
+            "github" :"https://github.com/MatiAlva/Calendar-FrontEnd.git"
+        },
+        {
+            "cover": "/portfolio/HeroesApp.png",
+            "title": "Heores App",
+            "tecnologis": "React, Jest, CSS",
+            "web": "https://heroes-app-matialva.vercel.app/marvel",
+            "github" :"https://github.com/MatiAlva/Heroes-App.git"
+        },
+        {
+            "cover": "/portfolio/TodoApp.png",
+            "title": "Todo App",
+            "tecnologis": "React, CSS, LocalStorage",
+            "web": "https://lista-de-tareas-h6vn-pr3fgphej-matialva.vercel.app/",
+            "github" :"https://github.com/MatiAlva/Lista-de-tareas.git"
+        },
+        {
+            "cover": "/portfolio/ClimaApp.png",
+            "title": "Clima App",
+            "tecnologis": "React, CSS, Axios",
+            "web": "https://climaa-app.netlify.app/",
+            "github" :"https://github.com/MatiAlva/ClimaApp.git"
+        },
+        {
+            "cover": "/portfolio/Portfolio2021.png",
+            "title": "Portfolio 2021",
+            "tecnologis": "Next, Styled-Components",
+            "web": "https://matidev.vercel.app/",
+            "github" :"https://github.com/MatiAlva/Portfolio.git"
+        },
+        {
+            "cover": "/portfolio/MemoryGame.png",
+            "title": "Memory Game",
+            "tecnologis": "React, CSS",
+            "web": "https://memoria-game.netlify.app/",
+            "github" :"https://github.com/MatiAlva/Memory-Game.git"
+        },
+        {
+            "cover": "/portfolio/Momentium.png",
+            "title": "Momentium",
+            "tecnologis": "React, AXIOS, Styled-Components",
+            "web": "https://momentium-app.netlify.app/",
+            "github" :"https://github.com/MatiAlva/Momentium.git"
+        },
+        {
+            "cover": "/portfolio/RickApp.png",
+            "title": "Rick And Morty",
+            "tecnologis": "React, CSS",
+            "web": "https://app-rick-y-morty.netlify.app/",
+            "github" :"https://github.com/MatiAlva/Rick-and-Morty.git"
+        },
+        {
+            "cover": "MoviesApp",
+            "title": "Search movies",
+            "tecnologis": "React, CSS",
+            "web": "https://movie-searchs.netlify.app/",
+            "github" :"https://github.com/MatiAlva/search-movies.git"
+        }
+    ]
+}
