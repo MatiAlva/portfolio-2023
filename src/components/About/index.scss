@@ -4,7 +4,20 @@
         position: relative;
         width: 80%;
         height: auto;
-        top: 110px;
+        top: 200px;
+        right: 0;
+        margin: auto;
+        box-sizing: border-box;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .container-animation {
+        position: relative;
+        width: 100%;
+        height: auto;
         right: 0;
         margin: auto;
         box-sizing: border-box;
