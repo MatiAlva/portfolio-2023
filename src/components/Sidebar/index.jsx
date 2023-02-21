@@ -3,7 +3,7 @@ import './index.scss'
 import Logo from '../../assets/img/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faClose, faCode, faGear, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGit, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
 export const Sidebar = () => {
@@ -54,6 +54,33 @@ export const Sidebar = () => {
                 >
                     <FontAwesomeIcon icon={faCode} color='#4d4d4e' />
                 </NavLink>
+
+                {/* Condicional */}
+                {
+                    setShowNav ?
+                        (
+                            <>
+                                <NavLink
+                                    onClick={() => setShowNav(false)}
+                                    to='https://www.linkedin.com/in/mati-dev/'
+                                    target='_blank'
+                                >
+                                    <FontAwesomeIcon icon={faLinkedin} color='#0043fc' />
+                                </NavLink>
+                                <NavLink
+                                    onClick={() => setShowNav(false)}
+                                    to='https://github.com/MatiAlva'
+                                    target='_blank'
+                                >
+                                    <FontAwesomeIcon icon={faGithub} color='#fff8f8' />
+                                </NavLink>
+                            </>
+                        )
+                        : ''
+
+
+                }
+
                 <FontAwesomeIcon
                     onClick={() => setShowNav(false)}
                     icon={faClose}
@@ -62,34 +89,6 @@ export const Sidebar = () => {
                     className='close-icon'
                 />
             </nav>
-            <ul>
-                <li>
-                    <a
-                        href="https://www.linkedin.com/in/mati-dev/"
-                        target="_blank"
-                    >
-                        <FontAwesomeIcon
-                            onClick={() => setShowNav(false)}
-                            icon={faLinkedin}
-                            color="#4d4d4e"
-                            className="anchor-icon"
-                        />
-                    </a>
-                </li>
-                <li>
-                    <a
-                        href="https://github.com/MatiAlva"
-                        target="_blank"
-                    >
-                        <FontAwesomeIcon
-                            onClick={() => setShowNav(false)}
-                            icon={faGithub}
-                            color="#4d4d4e"
-                            className="anchor-icon"
-                        />
-                    </a>
-                </li>
-            </ul>
             <FontAwesomeIcon
                 onClick={() => setShowNav(true)}
                 icon={faBars}
