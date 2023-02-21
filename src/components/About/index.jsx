@@ -3,6 +3,7 @@ import { AnimatedLetters } from '../AnimatedLetters'
 import Lottie from 'lottie-react'
 import lottieAbout from '../../assets/data/lottie-about.json'
 import Loader from 'react-loaders'
+import './index.scss'
 
 export const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')

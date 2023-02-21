@@ -1,3 +1,4 @@
+
 .projects-page{
     padding-left: 100px;
     padding-right: 50px;
@@ -5,6 +6,7 @@
     position: initial;
     height: 100%;
     overflow: hidden;
+
 
     .page-title{
         margin-left: 100px;
@@ -112,6 +114,26 @@
 
         &:hover:after{
             opacity: 0.857;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container .projects-page{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .page-title{
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .images-box{
+            height: 200px;
+            max-width: calc(50% - 10px);
+                
         }
     }
 }

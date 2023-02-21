@@ -57,7 +57,7 @@
             "github" :"https://github.com/MatiAlva/Rick-and-Morty.git"
         },
         {
-            "cover": "MoviesApp",
+            "cover": "/portfolio/MoviesApp.png",
             "title": "Search movies",
             "tecnologis": "React, CSS",
             "web": "https://movie-searchs.netlify.app/",
