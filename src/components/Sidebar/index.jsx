@@ -69,6 +69,7 @@ export const Sidebar = () => {
                         target="_blank"
                     >
                         <FontAwesomeIcon
+                            onClick={() => setShowNav(false)}
                             icon={faLinkedin}
                             color="#4d4d4e"
                             className="anchor-icon"
@@ -81,6 +82,7 @@ export const Sidebar = () => {
                         target="_blank"
                     >
                         <FontAwesomeIcon
+                            onClick={() => setShowNav(false)}
                             icon={faGithub}
                             color="#4d4d4e"
                             className="anchor-icon"

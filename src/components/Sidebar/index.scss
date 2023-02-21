@@ -139,7 +139,7 @@
         height: auto;
         min-height: auto;
 
-        ul, nav{
+        ul, nav {
             display: none;
         }
 
@@ -161,6 +161,7 @@
             a {
                 margin-top: 50px;
                 font-size: 30px;
+                color: #fff;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -173,12 +174,13 @@
                 margin-left: 10px;
             }
             
-            a svg{
+            a svg {
                 opacity: 1 !important;
             }
 
 
         }
+
 
         .hamburger-icon,
         .close-icon {
