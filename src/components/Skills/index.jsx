@@ -32,7 +32,7 @@ export const Skills = () => {
                     <p>
                         Experto en desarrollo front-end incluyendo tecnologias como :
                         <span className='yellow'> HTML5, SASS, CSS, REACT, Styled-Components, JavaScript,
-                            Bootstrap, Git, JQUEY.
+                            Bootstrap, Git, JQUERY.
                         </span>
                     </p>
                     <p>Tambien tengo conocimientos y experiencia en lengujes de back-end como :
@@ -47,7 +47,7 @@ export const Skills = () => {
                             className='yellow'>
                             LinkedIn
                         </a> para mas detalles. Tambien puede consultar mi CV <a
-                            href='/CV/Alvarez-Matias.pdf'
+                            href='/CV/Alvarez-Matias-CV.pdf'
                             download={true}
                             className='yellow'
                         >

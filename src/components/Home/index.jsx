@@ -10,7 +10,7 @@ import Loader from 'react-loaders'
 export const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['a', 't', 'i', 'a', 's']
-    const jobArray = ['F', 'r', 'o', 'n', 'E', 'n', 'd', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
+    const jobArray = ['F', 'r', 'o', 'n', , 't', 'E', 'n', 'd', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
     useEffect(() => {
         setTimeout(() => {
@@ -37,7 +37,7 @@ export const Home = () => {
                         <br />
                         <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={24} />
                     </h1>
-                    <h2> FrontEnd Developer / Tecnico Programador </h2>
+                    <h2> FrontEnd Developer / Técnico Programador </h2>
                     <Link to='mailto:matyy01.ma@gmail.com' className='flat-button'>CONTACTAME</Link>
                 </div>
 
