@@ -3,6 +3,7 @@ import Loader from 'react-loaders'
 import { AnimatedLetters } from '../AnimatedLetters'
 import './index.scss'
 import portfolioData from '../../assets/data/porjects.json'
+import { RenderCard } from './RenderCard'
 
 export const Projects = () => {
 
@@ -16,37 +17,7 @@ export const Projects = () => {
         }, 4000)
     }, [])
 
-    const renderPortfolio = (portfolio) => {
-        return (
-            <div className='images-container'>
-                {
-                    portfolio.map((port, idx) => {
-                        return (
-                            <div key={idx} className='images-box'>
-                                <img src={port.cover} alt={port.title} className='portfolio-image' />
-                                <div className='content'>
-                                    <p className='title'>{port.title}</p>
-                                    <h4 className='description'>{port.tecnologis}</h4>
-                                    <button
-                                        className='btn'
-                                        onClick={() => window.open(port.web)}
-                                    >
-                                        Ir
-                                    </button>
-                                    <button
-                                        className='btn'
-                                        onClick={() => window.open(port.github)}
-                                    >
-                                        Codigo
-                                    </button>
-                                </div>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-        )
-    }
+
 
     return (
         <>
@@ -60,7 +31,7 @@ export const Projects = () => {
                         />
                     </h1>
                 </div>
-                <div>{renderPortfolio(portfolioData.portfolio)}</div>
+                <RenderCard portfolio={portfolioData.portfolio} />
             </div>
             <Loader type='ball-pulse' />
         </>
