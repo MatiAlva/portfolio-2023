@@ -4,6 +4,7 @@ import { AnimatedLetters } from '../AnimatedLetters'
 import './index.scss'
 import portfolioData from '../../assets/data/porjects.json'
 import { RenderCard } from './RenderCard'
+import { Layout } from '../Layout'
 
 export const Projects = () => {
 
@@ -21,6 +22,7 @@ export const Projects = () => {
 
     return (
         <>
+            <Layout />
             <div className='container projects-page'>
                 <div className='page-title'>
                     <h1>

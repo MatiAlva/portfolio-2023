@@ -4,6 +4,7 @@ import Lottie from 'lottie-react'
 import lottieAbout from '../../assets/data/lottie-about.json'
 import Loader from 'react-loaders'
 import './index.scss'
+import { Layout } from '../Layout'
 
 export const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,6 +17,7 @@ export const About = () => {
 
     return (
         <>
+            <Layout />
             <div className='container about-page'>
                 <div className='text-zone'>
                     <h1>

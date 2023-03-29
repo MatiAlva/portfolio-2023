@@ -4,6 +4,7 @@ import Loader from 'react-loaders'
 import { faCss3, faGitAlt, faGithub, faHtml5, faJsSquare, faNodeJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './index.scss'
+import { Layout } from '../Layout';
 
 
 export const Skills = () => {
@@ -20,6 +21,7 @@ export const Skills = () => {
 
     return (
         <>
+            <Layout />
             <div className='container about-page'>
                 <div className='text-zone'>
                     <h1>

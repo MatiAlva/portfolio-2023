@@ -129,18 +129,28 @@ $violet: #d20ee0;
     .home-page{
             .text-zone{
         h1{
-            font-size: 30px;
+            font-size: 20px;
         }
     }
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 700px) {
     .home-page{
             .text-zone{
         h1{
-            font-size: 20px;
+            font-size: 40px;
             font-weight: 0;
+        }
+    }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .home-page{
+            .text-zone{
+        h1{
+            font-size: 60px;
         }
     }
     }
