@@ -49,7 +49,7 @@ export const Skills = () => {
                             className='yellow'>
                             LinkedIn
                         </a> para mas detalles. Tambien puede consultar mi CV <a
-                            href='/CV/Alvarez-Matias-CV.pdf'
+                            href='/CV/Alvarez_Matias_CV.pdf'
                             download={true}
                             className='yellow'
                         >
