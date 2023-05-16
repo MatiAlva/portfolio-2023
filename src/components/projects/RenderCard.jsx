@@ -13,7 +13,7 @@ export const RenderCard = ({ portfolio }) => {
                             <h4 className='description'>{port.tecnologis}</h4>
                             <button
                                 className='btn'
-                                onClick={() => window.open(port.web)}
+                                onClick={() => window.open(port?.web)}
                             >
                                 Ir
                             </button>

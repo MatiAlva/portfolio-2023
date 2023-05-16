@@ -1,6 +1,20 @@
 {
     "portfolio" : [
         {
+            "cover": "/portfolio/TheBoss.png",
+            "title": "Software para cliente de Colombia (en proceso)",
+            "tecnologis": "React, Redux Toolkit, Sass, Axios",
+            "web": "https://calendar-backend-production-52bf.up.railway.app/auth/login",
+            "github" : null
+        },
+        {
+            "cover": "/portfolio/TodoList-TypeScript.png",
+            "title": "TodoList con TypeScript",
+            "tecnologis": "React, TypeScript",
+            "web": "https://todo-list-type-script-one.vercel.app/",
+            "github" :"https://github.com/MatiAlva/TodoList-TypeScript"
+        },
+        {
             "cover": "/portfolio/calendarApp.png",
             "title": "Calendar App compartido",
             "tecnologis": "Redux, Jest, Mongo, Node, Express, Axios, JWT",
