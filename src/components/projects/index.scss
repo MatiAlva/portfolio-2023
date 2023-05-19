@@ -133,19 +133,47 @@
 
 @media screen and (max-width: 600px){  
     .projects-page { 
-    .images-container{
-        display: grid;
-        grid-template-columns: 1fr; 
-        width: 100%;
-    }
-    .content{
-        .title{
-            font-size: 10px;
+        .images-container{
+            display: grid;
+            grid-template-columns: 1fr; 
+            width: 100%;
         }
-        .description{
-            font-size: 8px;
+        .content{
+            .title{
+                font-size: 22px;
+            }
+            .description{
+                font-size: 13px;
+            }
         }
     }
 }
 
+
+@media screen and (max-width: 420px){  
+    .projects-page { 
+
+        .content{
+            .title{
+                font-size: 12px;
+            }
+            .description{
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 300px){  
+    .projects-page { 
+
+        .content{
+            .title{
+                font-size: 12px;
+            }
+            .description{
+                font-size: 8px;
+            }
+        }
+    }
 }
