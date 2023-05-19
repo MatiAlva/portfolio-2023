@@ -33,8 +33,8 @@ export const Skills = () => {
                     </h1>
                     <p>
                         Experto en desarrollo front-end incluyendo tecnologias como :
-                        <span className='yellow'> HTML5, SASS, CSS, REACT, Styled-Components, JavaScript,
-                            Bootstrap, Git, JQUERY.
+                        <span className='yellow'> HTML5, SASS, CSS, REACT, TypeScript, Redux, Styled-Components, JavaScript,
+                            Bootstrap, Git, JQUERY, Axios.
                         </span>
                     </p>
                     <p>Tambien tengo conocimientos y experiencia en lengujes de back-end como :
