@@ -131,7 +131,13 @@
     }
 }
 
-@media screen and (max-width: 340px){   
+@media screen and (max-width: 600px){  
+    .projects-page { 
+    .images-container{
+        display: grid;
+        grid-template-columns: 1fr; 
+        width: 100%;
+    }
     .content{
         .title{
             font-size: 10px;
@@ -140,10 +146,6 @@
             font-size: 8px;
         }
     }
+}
 
-    .images-container{
-        display: grid;
-        grid-template-columns: 1fr; 
-        width: 100%;
-    }
 }
