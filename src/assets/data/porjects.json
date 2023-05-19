@@ -1,6 +1,13 @@
 {
     "portfolio" : [
         {
+            "cover": "/portfolio/Ts-Morty.png",
+            "title": "Shopp TS + Rick and Morty",
+            "tecnologis": "React,Ts, Redux Toolkit, MUI, Axios, Yup, Formik",
+            "web": "https://ts-shop-one.vercel.app/",
+            "github" : "https://github.com/MatiAlva/Ts-Shop"
+        },
+        {
             "cover": "/portfolio/TheBoss.png",
             "title": "Software para cliente de Colombia (en proceso)",
             "tecnologis": "React, Redux Toolkit, Sass, Axios",
